@@ -1,0 +1,21 @@
+@media(max-width: 840px){
+    .principal{
+        width: 95vw;
+        height: auto;
+        flex-direction: column;
+    }
+    .principal .imagem-ilustrativa{
+        position: static;
+        width: 250px;
+        height: 250px;
+    }
+    .principal .faqs{
+        position: static;
+        width: 100%;
+        gap: 10px;
+    }
+    .principal .faqs .titulo{
+        margin-top: 15px;
+        text-align: center;
+    }
+}
